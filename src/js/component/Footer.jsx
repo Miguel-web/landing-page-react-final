@@ -2,15 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <div className="row">
-          <div className="col-lg-12">
-            <p>Copyright &copy; Your Website Name 2021</p>
-          </div>
-        </div>
-      </footer>
+    <body className="d-flex flex-column">
+  <footer className="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div className="container text-center">
+      <small>Footer</small>
     </div>
+  </footer>
+</body>
   );
 };
 export default Footer;

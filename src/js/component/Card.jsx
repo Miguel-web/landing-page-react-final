@@ -2,79 +2,73 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="container border-top mx-auto px-5 mb-5">
-      <h2 className="fs-1" style={{ marginTop: "35px" }}>
-        <strong>Portfolio</strong>
-      </h2>
-      <p className="fs-3">
-        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
-        porta felis euismod semper. Praesent commodo cursus magna, vel
-        scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-      </p>
-      <div className="row">
-        <div className="col-sm-3">
-          <div className="card">
-            <img
-              src="https://picsum.photos/200/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h4 className="card-title text-primary">Project Name</h4>
-              <p className="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dignissimos neque eos, deleniti pariatur harum quia.
-              </p>
-            </div>
-          </div>
+    <div class="card-group">
+      <div class="card text-center">
+        <img
+          src="https://api.lorem.space/image/album?w=150&h=150"
+          class="card-img-top"
+        ></img>
+        <div class="card-body">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit atque adipisci quidem non debitis. Quo voluptatibus, numquam iusto repellat, dolorum, adipisci dicta molestiae in perferendis consequuntur totam perspiciatis aliquid?
+          </p>
         </div>
-        <div className="col-sm-3">
-          <div className="card">
-            <img
-              src="https://picsum.photos/200/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h4 className="card-title text-primary">Project Name</h4>
-              <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos neque eos, deleniti pariatur harum quia.
-              </p>
-            </div>
-          </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>{" "}
         </div>
-        <div className="col-sm-3">
-          <div className="card">
-            <img
-              src="https://picsum.photos/200/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h4 className="card-title text-primary">Project Name</h4>
-              <p className="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dignissimos neque eos, deleniti pariatur harum quia.
-              </p>
-            </div>
-          </div>
+      </div>
+      <div class="card text-center">
+        <img
+          src="https://api.lorem.space/image/album?w=150&h=150"
+          class="card-img-top"
+        ></img>
+        <div class="card-body">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quisquam minima voluptatum impedit consequatur laboriosam ullam praesentium. Nam eveniet, atque voluptatum ab ad, debitis repellendus distinctio, excepturi facilis culpa incidunt.
+          </p>
         </div>
-        <div className="col-sm-3">
-          <div className="card">
-            <img
-              src="https://picsum.photos/200/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h4 className="card-title text-primary">Project Name</h4>
-              <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos neque eos, deleniti pariatur harum quia.
-              </p>
-            </div>
-          </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>{" "}
+        </div>
+      </div>
+      <div class="card text-center">
+        <img
+          src="https://api.lorem.space/image/album?w=150&h=150"
+          class="card-img-top"
+        ></img>
+        <div class="card-body">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius illum laborum ipsa nobis iure nam molestias, reiciendis unde at distinctio quis impedit et voluptatibus eos tenetur dolorum iusto. Minima, est!
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>{" "}
+        </div>
+      </div>
+      <div class="card text-center">
+        <img
+          src="https://api.lorem.space/image/album?w=150&h=150"
+          class="card-img-top"
+        ></img>
+        <div class="card-body">
+          <h5 class="card-title">title</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis eius unde aut consectetur eligendi minima optio tenetur pariatur voluptate? Qui possimus vero delectus quam. Fugiat maiores dicta optio sequi.
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>{" "}
         </div>
       </div>
     </div>
